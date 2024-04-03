@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>validation</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="validation_wrapper">
+      <div class="title">
+        <h1>회원가입<h1>
+      </div>
+      <div class="validation">
+        <span class="validation_title">이름</span>
+        <input class="validation_text name"></input>
+        <span class="validation_error">필수 입력 항목입니다!</span>
+        <span class="validation_cor">멋진 이름이네요!</span>
+      </div>
+      <div class="validation">
+        <span class="validation_title">이메일</span>
+        <input class="validation_text email"></input>
+        <span class="validation_error">올바른 이메일 형식이 아닙니다!</span>
+        <span class="validation_cor">올바른 이메일 형식입니다!</span>
+      </div>
+      <div class="validation">
+        <span class="validation_title">나이</span>
+        <input class="validation_text age"></input>
+        <span class="validation_error">나이를 입력해주세요!</span>
+        <span class="validation_cor">올바른 나이 형식입니다!</span>
+      </div>
+      <div class="validation">
+        <span class="validation_title">비밀번호</span>
+        <input class="validation_text pw"></input>
+        <span class="validation_error">비밀번호는 최소 4자리 이상이어야 합니다.</span>
+        <span class="validation_cor">올바른 비밀번호 형식입니다!</span>
+      </div>
+      <div class="validation">
+        <span class="validation_title">비밀번호 확인</span>
+        <input class="validation_text pw-rc"></input>
+        <span class="validation_error">비밀번호가 일치하지 않습니다.</span>
+        <span class="validation_cor">비밀번호가 일치합니다.</span>
+      </div>
+    </div>
+
+    <div class="btn">
+      <span class="btn_text">가입하기</span>
+    </div>
+
+  </div>
+  <div class="clear_wrapper">
+    <div class="clear">
+      <div class="clear_title">
+        <h3>가입 성공!</h3>
+      </div>
+      <div class="clear_text">
+        <p>umc 첼린저 가입을 축하합니다!!</p>
+      </div>
+
+      <button class="clear_btn">
+        닫기
+      </button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
